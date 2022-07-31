@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[4]:
-
-
 x = float(input("Enter first number: "))
 y = float(input("Enter second number: "))
 z = float(input("Enter third number: "))
@@ -15,4 +9,3 @@ elif (y>x) and (y>z):
 else:
        l=z
 print("The largest number is",l)
-
