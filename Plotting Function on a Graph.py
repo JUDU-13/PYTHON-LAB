@@ -3,7 +3,7 @@ import  matplotlib.pyplot as plt
 x = [1,2,3,4,5,6]
 ans = []
 for i in x:
-    y = (i**4)+5 # y=(x^4)+5
+    y = (i**4)+5
     ans.append(y)
     
 print("Input values: ", x, "\nCalculated values:", ans)
