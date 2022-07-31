@@ -45,7 +45,7 @@ plt.scatter(femaleHighers['Sl No'], femaleHighers['Mark'], marker='x', facecolor
 femaleLowers = df.loc[(df['Mark'] == femaleLowestMark) & ( df['Gender'] == 'f')] # Female's min marks for graph plotting
 plt.scatter(femaleLowers['Sl No'], femaleLowers['Mark'], marker='o', facecolor='orange', label="Female's Lowest Mark") # Scatter Plotting
 plt.xlabel("Serial Number")
-
+plt.grid()
 plt.ylabel("Marks")
 
 # Key Box
