@@ -1,4 +1,3 @@
-
 file = open('letter.txt', 'r+') # make a 'letter.txt' in the current folder
 
 uppercase = lowercase = specialSym = sen = 0
